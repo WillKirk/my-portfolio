@@ -9,7 +9,7 @@ const hobbies = [
   {
     emoji: '🚗',
     name: 'Cars',
-    description: 'Long time enthusiast. Anything from vintage to modern sports car as long as there\'s some class.',
+    description: 'Long time enthusiast. Anything from vintage to modern sports car as long as there\'s some style.',
   },
   {
     emoji: '🎮',
