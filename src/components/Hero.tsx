@@ -10,13 +10,12 @@ export default function Hero() {
         </p>
 
         <h1 className="text-5xl md:text-5xl font-medium text-white leading-tight tracking-tight mb-6 max-w-2xl">
-          Four years in.<br />
-          <span className="text-green-primary">Just getting started.</span>
+            Hi, I&apos;m <span className="text-green-primary">Will.</span>
         </h1>
 
         <p className="text-gray-400 text-base leading-relaxed max-w-md mb-10">
-          Full-stack developer based in London. Maths graduate. Perpetual learner.
-          I build clean, practical things and I&apos;m just getting started.
+            Full-stack developer based in London. Four years of commercial experience,
+            maths degree, currently building in React and Next.js.
         </p>
 
         <div className="flex items-center gap-4 mb-16">

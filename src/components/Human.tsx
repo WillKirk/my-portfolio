@@ -2,9 +2,9 @@ import FadeIn from '@/components/FadeIn'
 
 const hobbies = [
   {
-    emoji: '🏉',
-    name: 'Rugby & Rowing',
-    description: 'Team sports. The discipline carries over.',
+    emoji: '🎾',
+    name: 'Tennis',
+    description: 'Keeps the competitive streak alive.',
   },
   {
     emoji: '🚗',

@@ -15,7 +15,7 @@ export default function Story() {
           <div className="space-y-5">
             <FadeIn delay={0.1}>
               <p className="text-gray-700 text-base leading-relaxed">
-                I started with a <span className="text-gray-900 font-medium">maths degree at Nottingham</span> — not
+                I started with a <span className="text-gray-900 font-medium">maths degree at Nottingham</span>, not
                 the most obvious route into software, but it turns out that thinking analytically
                 and breaking problems into pieces is exactly what coding rewards.
               </p>
@@ -25,7 +25,7 @@ export default function Story() {
               <p className="text-gray-700 text-base leading-relaxed">
                 A bootcamp during the pandemic got me into web development properly, and four years
                 at <span className="text-gray-900 font-medium">Wine-Searcher</span> taught me how real products
-                are built — messy legacy codebases, cross-functional teams, deployment pipelines and
+                are built; messy legacy codebases, cross-functional teams, deployment pipelines and
                 all. I shipped everything from Shopify integrations to internal tooling.
               </p>
             </FadeIn>
@@ -33,17 +33,11 @@ export default function Story() {
             <FadeIn delay={0.3}>
               <p className="text-gray-700 text-base leading-relaxed">
                 Now I&apos;m doing an <span className="text-gray-900 font-medium">MSc in Computer Science at UEL</span>,
-                AWS certified, and building side projects to push into React, TypeScript and Next.js —
+                and building side projects to push into React, TypeScript and Next.js;
                 the areas I haven&apos;t had the chance to use professionally yet, but intend to.
               </p>
             </FadeIn>
 
-            <FadeIn delay={0.4}>
-              <p className="text-gray-700 text-base leading-relaxed">
-                I like people who are curious about more than one thing.{' '}
-                <span className="text-gray-900 font-medium">I try to be one of them.</span>
-              </p>
-            </FadeIn>
           </div>
 
         </div>
