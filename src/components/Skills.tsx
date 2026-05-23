@@ -3,11 +3,12 @@ import FadeIn from '@/components/FadeIn'
 const professionalSkills = [
   { name: 'JavaScript', level: 90 },
   { name: 'PHP', level: 80 },
-  { name: 'MySQL', level: 85 },
+  { name: 'SQL/MySQL', level: 85 },
   { name: 'AWS', level: 75 },
   { name: 'HTML / CSS', level: 90 },
   { name: 'GraphQL', level: 65 },
   { name: 'Git', level: 85 },
+  { name: 'Oracle', level: 50 },
 ]
 
 const learningSkills = [
