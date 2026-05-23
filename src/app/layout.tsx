@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
     title: 'Will Kirkpatrick — Developer',
-    description: 'Full-stack developer based in London. Maths graduate. Perpetual learner.',
+    description: 'who am I Gamling?',
   }
 
 export default function RootLayout({
