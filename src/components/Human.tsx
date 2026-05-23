@@ -4,27 +4,27 @@ const hobbies = [
   {
     emoji: '🎾',
     name: 'Tennis',
-    description: 'Keeps the competitive streak alive.',
+    description: 'Roger Federer fanboy.',
   },
   {
     emoji: '🚗',
     name: 'Cars',
-    description: 'Enthusiast. Especially appreciates anything interesting under the bonnet.',
+    description: 'Long time enthusiast. Anything from vintage to modern sports car as long as there\'s some class.',
   },
   {
     emoji: '🎮',
     name: 'Gaming',
-    description: 'Long-time hobby. Good for the problem-solving brain.',
+    description: 'Long-time hobby. Anything with a good story.',
   },
   {
     emoji: '🗣️',
     name: 'Spanish',
-    description: 'Advanced level. Learning languages and learning frameworks feel surprisingly similar.',
+    description: 'B2/C1. Who doesn\'t want to live in Marbella',
   },
   {
     emoji: '📈',
     name: 'Finance & Maths',
-    description: 'Where the degree still gets used regularly.',
+    description: 'Aspiring angel investor',
   },
   {
     emoji: '⛷️',
