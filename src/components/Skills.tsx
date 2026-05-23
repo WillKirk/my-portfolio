@@ -9,6 +9,7 @@ const professionalSkills = [
   { name: 'GraphQL', level: 65 },
   { name: 'Git', level: 85 },
   { name: 'Oracle', level: 50 },
+  { name: 'SVN', level: 80 },
 ]
 
 const learningSkills = [
