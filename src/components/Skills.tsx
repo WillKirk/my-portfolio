@@ -8,7 +8,6 @@ const professionalSkills = [
   { name: 'HTML / CSS', level: 90 },
   { name: 'GraphQL', level: 65 },
   { name: 'Git', level: 85 },
-  { name: 'Docker', level: 60 },
 ]
 
 const learningSkills = [
@@ -16,6 +15,7 @@ const learningSkills = [
   { name: 'React', level: 50 },
   { name: 'Next.js', level: 40 },
   { name: 'Node.js', level: 45 },
+  { name: 'Docker', level: 30 },
 ]
 
 type Skill = {
