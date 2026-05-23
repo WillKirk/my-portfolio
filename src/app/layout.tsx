@@ -6,10 +6,6 @@ import './globals.css'
 export const metadata: Metadata = {
     title: 'Will Kirkpatrick — Developer',
     description: 'Full-stack developer based in London. Maths graduate. Perpetual learner.',
-    icons: {
-      icon: '/favicon.ico',
-      apple: '/apple-touch-icon.png',
-    },
   }
 
 export default function RootLayout({
