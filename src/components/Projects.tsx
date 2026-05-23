@@ -21,6 +21,15 @@ const projects: Project[] = [
     github: 'https://github.com/WillKirk',
     status: 'in-progress',
   },
+  {
+    number: '02',
+    title: 'AirCargo Realtime',
+    description:
+      'A web-based SQL query interface built for a fictional airfreight business as part of university coursework. Provides a simple frontend for running queries against a relational database of flights, cargo, customers and routes.',
+    tech: ['Python', 'Flask', 'MySQL', 'AWS EC2', 'AWS RDS'],
+    github: 'https://github.com/WillKirk/aircargo-realtime',
+    status: 'live',
+  },
 ]
 
 const statusStyles = {
@@ -30,7 +39,7 @@ const statusStyles = {
 }
 
 const statusLabels = {
-  live: 'Live',
+  live: 'View code',
   'in-progress': 'In progress',
   'coming-soon': 'Coming soon',
 }
@@ -48,7 +57,7 @@ export default function Projects() {
             Things I&apos;ve built
           </h2>
           <p className="text-gray-500 text-sm mb-12">
-            Side projects built to learn, explore and ship.
+            Side projects and coursework built to learn, explore and ship.
           </p>
         </FadeIn>
 
@@ -106,7 +115,7 @@ export default function Projects() {
             </FadeIn>
           ))}
 
-          <FadeIn delay={0.2}>
+          <FadeIn delay={0.3}>
             <div className="border border-dashed border-gray-200 rounded-2xl p-8 flex items-center justify-center">
               <p className="text-gray-400 text-sm">More projects coming soon</p>
             </div>
