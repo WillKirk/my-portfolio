@@ -19,7 +19,8 @@ const projects: Project[] = [
       'A personal finance dashboard to track income, expenses, budgets and savings goals. Built with multi-user auth, data visualisations and a guest demo mode so anyone can try it without signing up.',
     tech: ['Next.js', 'TypeScript', 'MySQL', 'NextAuth', 'Recharts'],
     github: 'https://github.com/WillKirk',
-    status: 'in-progress',
+    live: 'https://fintrack-wk.vercel.app/dashboard',
+    status: 'live',
   },
   {
     number: '02',
