@@ -57,79 +57,80 @@ const statusLabels = {
 export default function Projects() {
   return (
     <section id="projects" className="bg-white border-b border-gray-200 px-6 py-24">
-      <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto">
 
-        <FadeIn>
-          <p className="font-mono text-xs text-green-primary tracking-widest uppercase mb-4">
-            Projects
-          </p>
-          <h2 className="text-3xl font-medium text-gray-900 tracking-tight mb-3">
-            Things I&apos;ve built
-          </h2>
-          <p className="text-gray-500 text-sm mb-12">
-            Side projects and coursework built to learn, explore and ship.
-          </p>
-        </FadeIn>
-
-        <div className="space-y-4">
-          {projects.map((project, i) => (
-            <FadeIn key={project.number} delay={i * 0.1}>
-              <div className="group bg-gray-50 hover:border-green-primary border border-gray-200 rounded-2xl p-8 transition-colors duration-200">
-                <div className="flex items-center justify-end gap-3 mb-4">
-
-                    {project.github && (
-                    <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm text-gray-500 hover:text-green-primary transition-colors duration-200 flex items-center gap-1 font-medium"
-                        >
-                        GitHub <ArrowUpRight size={14} />
-                    </a>
-                    )}
-                    {project.live && (
-                      <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-sm text-gray-500 hover:text-green-primary transition-colors duration-200 flex items-center gap-1 font-medium"
-                    >
-                      Live <ArrowUpRight size={14} />
-                    </a>
-                    )}
-
-                </div>
-
-                <p className="font-mono text-xs text-gray-400 mb-2">{project.number}</p>
-                <h3 className="text-xl font-medium text-gray-900 mb-3 tracking-tight">
-                  {project.title}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed mb-6 max-w-2xl">
-                  {project.description}
+            <FadeIn>
+                <p className="font-mono text-xs text-green-primary tracking-widest uppercase mb-4">
+                    Projects
                 </p>
-
-                <div className="flex flex-wrap gap-2">
-                  {project.tech.map((t) => (
-                    <span
-                      key={t}
-                      className="text-xs bg-white border border-gray-200 text-gray-600 px-3 py-1 rounded-md"
-                    >
-                      {t}
-                    </span>
-                  ))}
-                </div>
-              </div>
+                <h2 className="text-3xl font-medium text-gray-900 tracking-tight mb-3">
+                    Things I&apos;ve built
+                </h2>
+                <p className="text-gray-500 text-sm mb-12">
+                    Side projects and coursework built to learn, explore and ship.
+                </p>
             </FadeIn>
-          ))}
 
-          <FadeIn delay={0.3}>
-            <div className="border border-dashed border-gray-200 rounded-2xl p-8 flex items-center justify-center">
-              <p className="text-gray-400 text-sm">More projects coming soon</p>
+            <div className="space-y-4">
+                {projects.map((project, i) => (
+                    <FadeIn key={project.number} delay={i * 0.1}>
+                        <div className="group bg-gray-50 hover:border-green-primary border border-gray-200 rounded-2xl p-8 transition-colors duration-200">
+                            <div className="flex items-center justify-between mb-2">
+                                <p className="font-mono text-xs text-gray-400 mb-2">{project.number}</p>
+                                <div className="flex items-center gap-3">
+                                    {project.github && (
+                                        <a
+                                            href={project.github}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-sm text-gray-500 hover:text-green-primary transition-colors duration-200 flex items-center gap-1 font-medium"
+                                            >
+                                            GitHub <ArrowUpRight size={14} />
+                                        </a>
+                                    )}
+                                    {project.live && (
+                                        <a
+                                            href={project.live}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-sm text-gray-500 hover:text-green-primary transition-colors duration-200 flex items-center gap-1 font-medium"
+                                            >
+                                            Live <ArrowUpRight size={14} />
+                                        </a>
+                                    )}
+                                </div>
+                            </div>
+
+                        
+                            <h3 className="text-xl font-medium text-gray-900 mb-3 tracking-tight">
+                            {project.title}
+                            </h3>
+                            <p className="text-gray-600 text-sm leading-relaxed mb-6 max-w-2xl">
+                            {project.description}
+                            </p>
+
+                            <div className="flex flex-wrap gap-2">
+                                {project.tech.map((t) => (
+                                    <span
+                                    key={t}
+                                    className="text-xs bg-white border border-gray-200 text-gray-600 px-3 py-1 rounded-md"
+                                    >
+                                    {t}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    </FadeIn>
+                ))}
+
+                <FadeIn delay={0.3}>
+                    <div className="border border-dashed border-gray-200 rounded-2xl p-8 flex items-center justify-center">
+                    <p className="text-gray-400 text-sm">More projects coming soon</p>
+                    </div>
+                </FadeIn>
             </div>
-          </FadeIn>
-        </div>
 
-      </div>
+        </div>
     </section>
   )
 }
