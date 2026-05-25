@@ -76,29 +76,26 @@ export default function Projects() {
             <FadeIn key={project.number} delay={i * 0.1}>
               <div className="group bg-gray-50 hover:border-green-primary border border-gray-200 rounded-2xl p-8 transition-colors duration-200">
                 <div className="flex items-start justify-between mb-4">
-                  <span className={`text-xs px-3 py-1 rounded-full font-medium ${statusStyles[project.status]}`}>
-                    {statusLabels[project.status]}
-                  </span>
                   <div className="flex items-center gap-3">
                     {project.github && (
-                      <a
+                    <a
                         href={project.github}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-xs text-gray-400 hover:text-green-primary transition-colors duration-200 flex items-center gap-1"
-                      >
-                        GitHub <ArrowUpRight size={12} />
-                      </a>
+                        className="text-sm text-gray-500 hover:text-green-primary transition-colors duration-200 flex items-center gap-1 font-medium"
+                        >
+                        GitHub <ArrowUpRight size={14} />
+                    </a>
                     )}
                     {project.live && (
                       <a
-                        href={project.live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-xs text-gray-400 hover:text-green-primary transition-colors duration-200 flex items-center gap-1"
-                      >
-                        Live <ArrowUpRight size={12} />
-                      </a>
+                      href={project.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-500 hover:text-green-primary transition-colors duration-200 flex items-center gap-1 font-medium"
+                    >
+                      Live <ArrowUpRight size={14} />
+                    </a>
                     )}
                   </div>
                 </div>
