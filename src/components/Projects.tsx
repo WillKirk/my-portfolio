@@ -36,7 +36,7 @@ const projects: Project[] = [
     title: 'Abney Village',
     description: 'A village website for Abney in the Peak District. Built with Python and Flask, hosted on Vercel with Cloudflare R2 for image storage. Features village information, photo gallery, Google Maps integration and a contact form for village hall bookings.',
     tech: ['Python', 'Flask', 'Tailwind CSS', 'TypeScript', 'Cloudflare R2', 'boto3', 'Vercel'],
-    live: 'https://abney-village.co.uk',
+    live: 'https://abney-hope-valley.co.uk/',
     status: 'live',
   },
 ]
