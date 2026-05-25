@@ -75,8 +75,8 @@ export default function Projects() {
           {projects.map((project, i) => (
             <FadeIn key={project.number} delay={i * 0.1}>
               <div className="group bg-gray-50 hover:border-green-primary border border-gray-200 rounded-2xl p-8 transition-colors duration-200">
-                <div className="flex items-start justify-between mb-4">
-                  <div className="flex items-center gap-3">
+                <div className="flex items-center justify-end gap-3 mb-4">
+
                     {project.github && (
                     <a
                         href={project.github}
@@ -97,7 +97,7 @@ export default function Projects() {
                       Live <ArrowUpRight size={14} />
                     </a>
                     )}
-                  </div>
+
                 </div>
 
                 <p className="font-mono text-xs text-gray-400 mb-2">{project.number}</p>
