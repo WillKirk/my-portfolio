@@ -40,6 +40,15 @@ const projects: Project[] = [
     live: 'https://abney-hope-valley.co.uk/',
     status: 'live',
   },
+  {
+    number: '04',
+    title: 'Steam Dashboard',
+    description: 'A personal Steam stats dashboard showing game library, playtime, and achievements. Built with Python and Flask, consuming the Steam Web API, hosted on Vercel.',
+    tech: ['Python', 'Flask', 'Steam API', 'Chart.js', 'Vercel'],
+    github: 'https://github.com/WillKirk/steam-dashboard',
+    live: 'https://steam-dashboard-wk.vercel.app/',
+    status: 'live',
+  },
 ]
 
 const statusStyles = {
