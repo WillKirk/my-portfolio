@@ -43,7 +43,7 @@ const projects: Project[] = [
   {
     number: '04',
     title: 'Steam Dashboard',
-    description: 'A personal Steam stats dashboard showing game library, playtime, and achievements. Built with Python and Flask, consuming the Steam Web API, hosted on Vercel.',
+    description: 'A personal Steam stats dashboard showing game library, playtime, and achievements. Built with Python and Flask, using the Steam Web API, hosted on Vercel.',
     tech: ['Python', 'Flask', 'Steam API', 'Chart.js', 'Vercel'],
     github: 'https://github.com/WillKirk/steam-dashboard',
     live: 'https://steam-dashboard-wk.vercel.app/',
