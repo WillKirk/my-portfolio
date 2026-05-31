@@ -26,7 +26,7 @@ export default function Hero() {
             See my work
           </a>
           <a
-            href="/willl-kirkpatrick-cv.pdf"
+            href="/will-kirkpatrick-cv.pdf"
             className="text-sm text-gray-400 hover:text-white border border-gray-700 hover:border-gray-500 px-5 py-2.5 rounded-lg transition-colors duration-200"
           target="_blank">
             Download CV
