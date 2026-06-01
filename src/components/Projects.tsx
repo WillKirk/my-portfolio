@@ -49,6 +49,15 @@ const projects: Project[] = [
     live: 'https://steam-dashboard-wk.vercel.app/',
     status: 'live',
   },
+  {
+    number: '05',
+    title: 'Gaming Quiz',
+    description: 'A multiple choice gaming quiz built with vanilla JavaScript, fetching questions from the Open Trivia Database API.',
+    tech: ['JavaScript', 'HTML', 'CSS', 'REST API'],
+    github: 'https://github.com/WillKirk/quiz-app',
+    live: 'https://quiz-app-wk.netlify.app/',
+    status: 'live',
+  },
 ]
 
 const statusStyles = {
