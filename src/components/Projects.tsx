@@ -89,7 +89,7 @@ export default function Projects() {
                 </p>
             </FadeIn>
 
-            <div className="grid grid-cols-2 gap-4 items-stretch">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
                 {projects.map((project, i) => (
                     <FadeIn key={project.number} delay={i * 0.1}>
                         <div className="group bg-gray-50 hover:border-green-primary border border-gray-200 rounded-2xl p-8 transition-colors duration-200 h-full flex flex-col">
