@@ -89,10 +89,10 @@ export default function Projects() {
                 </p>
             </FadeIn>
 
-            <div className="space-y-4">
+            <div className="grid grid-cols-2 gap-4 items-stretch">
                 {projects.map((project, i) => (
                     <FadeIn key={project.number} delay={i * 0.1}>
-                        <div className="group bg-gray-50 hover:border-green-primary border border-gray-200 rounded-2xl p-8 transition-colors duration-200">
+                        <div className="group bg-gray-50 hover:border-green-primary border border-gray-200 rounded-2xl p-8 transition-colors duration-200 h-full flex flex-col">
                             <div className="flex items-center justify-between mb-2">
                                 <p className="font-mono text-xs text-gray-400 mb-2">{project.number}</p>
                                 <div className="flex items-center gap-3">
@@ -127,15 +127,18 @@ export default function Projects() {
                             {project.description}
                             </p>
 
-                            <div className="flex flex-wrap gap-2">
-                                {project.tech.map((t) => (
+                            <div className="relative mt-auto">
+                                <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-gray-50 to-transparent pointer-events-none z-10" />
+                                <div className="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
+                                    {project.tech.map((t) => (
                                     <span
-                                    key={t}
-                                    className="text-xs bg-white border border-gray-200 text-gray-600 px-3 py-1 rounded-md"
+                                        key={t}
+                                        className="text-xs bg-white border border-gray-200 text-gray-600 px-3 py-1 rounded-md whitespace-nowrap shrink-0"
                                     >
                                     {t}
                                     </span>
-                                ))}
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </FadeIn>
