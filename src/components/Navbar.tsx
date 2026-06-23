@@ -20,18 +20,29 @@ export default function Navbar() {
         : 'bg-transparent'
     )}>
       <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
-        <span className={cn(
-            'text-sm font-medium tracking-tight transition-colors duration-300',
-            scrolled ? 'text-gray-900' : 'text-white'
-            )}>
+        <a
+            href="#"
+            onClick={(e) => {
+              e.preventDefault()
+              window.scrollTo({ top: 0, behavior: 'smooth' })
+              history.pushState(null, '', window.location.pathname)
+            }}
+            className={cn(
+              'text-sm font-medium tracking-tight transition-colors duration-300 cursor-pointer',
+              scrolled ? 'text-gray-900' : 'text-white'
+            )}
+        >
             WK<span className="text-green-primary">.</span>
-        </span>
+        </a>
         <div className="hidden md:flex items-center gap-8">
             {['Story', 'Skills', 'Projects', 'Contact'].map((item) => (
                 <a          // ← here
                     key={item}
                     href={`#${item.toLowerCase()}`}
-                    className="text-sm text-gray-500 hover:text-gray-900 transition-colors duration-200"
+                    className={cn(
+                      'text-sm hover:text-green-primary transition-colors duration-200',
+                      scrolled ? 'text-gray-500' : 'text-gray-300'
+                    )}
                 >
                     {item}
                 </a>
