@@ -34,7 +34,7 @@ export default function Contact() {
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-12">
               I&apos;m open to full-stack and frontend roles in London. If something about
-              my background resonates — or you just want to chat — I&apos;d love to hear from you.
+              my background resonates or you just want to chat; I&apos;d love to hear from you.
             </p>
           </FadeIn>
 
