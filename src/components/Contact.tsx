@@ -30,7 +30,7 @@ export default function Contact() {
               Contact
             </p>
             <h2 className="text-3xl font-medium text-gray-900 tracking-tight mb-3">
-              Let&apos;s talk
+              Hi Hi
             </h2>
             <p className="text-gray-500 text-sm leading-relaxed mb-12">
               I&apos;m open to full-stack and frontend roles in London. If something about
