@@ -13,6 +13,7 @@ const professionalSkills = [
 ]
 
 const learningSkills = [
+  { name: 'Python', level: 60},
   { name: 'TypeScript', level: 55 },
   { name: 'React', level: 50 },
   { name: 'Next.js', level: 40 },
