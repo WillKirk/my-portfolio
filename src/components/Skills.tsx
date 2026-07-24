@@ -17,7 +17,7 @@ const learningSkills = [
   { name: 'TypeScript', level: 55 },
   { name: 'React', level: 50 },
   { name: 'Next.js', level: 40 },
-  { name: 'Node.js', level: 45 },
+  { name: 'Node.js', level: 35 },
   { name: 'Docker', level: 30 },
 ]
 
