@@ -14,8 +14,8 @@ export default function Hero() {
         </h1>
 
         <p className="text-gray-400 text-base leading-relaxed max-w-md mb-10">
-            Full-stack developer based in London. Four years of commercial experience,
-            maths degree, currently building in React and Next.js.
+            Full-stack developer based in London with four years of commercial experience,
+            having just completed an MSc in Computer Science.
         </p>
 
         <div className="flex items-center gap-4 mb-16">
